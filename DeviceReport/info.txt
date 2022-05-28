@@ -1,0 +1,40 @@
+Name: Аудио Intel(R) для дисплеев
+GUID: {4d36e96c-e325-11ce-bfc1-08002be10318}
+Class: MEDIA
+Enumerator: HDAUDIO
+Device Manufacturer: Intel(R) Corporation
+Physical Device Object Name: \Device\0000004d
+Service: IntcDAud
+
+Name: Realtek High Definition Audio
+GUID: {4d36e96c-e325-11ce-bfc1-08002be10318}
+Class: MEDIA
+Enumerator: HDAUDIO
+Device Manufacturer: Realtek
+Physical Device Object Name: \Device\0000004c
+Service: IntcAzAudAddService
+
+Name: Intel(R) UHD Graphics 620
+GUID: {4d36e968-e325-11ce-bfc1-08002be10318}
+Class: Display
+Enumerator: PCI
+Device Manufacturer: Intel Corporation
+Physical Device Object Name: \Device\NTPNP_PCI0001
+Service: igfx
+
+Name: NVIDIA GeForce MX230
+GUID: {4d36e968-e325-11ce-bfc1-08002be10318}
+Class: Display
+Enumerator: PCI
+Device Manufacturer: NVIDIA
+Physical Device Object Name: \Device\NTPNP_PCI0023
+Service: nvlddmkm
+
+Name: Универсальный монитор PnP
+GUID: {4d36e96e-e325-11ce-bfc1-08002be10318}
+Class: Monitor
+Enumerator: DISPLAY
+Device Manufacturer: (Стандартные мониторы)
+Physical Device Object Name: \Device\00000060
+Service: monitor
+
